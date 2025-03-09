@@ -1,0 +1,35 @@
+.ant-layout-header {
+  padding: 0px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.btns-holder {
+  padding: 0 25px;
+  display: flex;
+  margin: auto 0;
+}
+.btns-holder .ant-btn {
+  margin: 0 10px;
+}
+
+.user {
+  box-shadow: 0px 0px 5px 0px #80808096;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.cart {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.userBtn {
+  border: 0;
+  padding: 0;
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}

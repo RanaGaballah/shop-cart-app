@@ -1,0 +1,72 @@
+.logo {
+  width: 12rem;
+  display: flex;
+  margin: 12px auto;
+}
+.logoGiza {
+  width: 10rem;
+  display: flex;
+  margin: 12px auto;
+}
+
+.menuTitle {
+  padding: 0 20px;
+  display: flex;
+  margin: 30px 0 5px;
+  font-size: 13px;
+}
+
+.ant-menu-light .ant-menu-item,
+.ant-menu-light>.ant-menu .ant-menu-item,
+.ant-menu-light .ant-menu-submenu-title,
+.ant-menu-light>.ant-menu .ant-menu-submenu-title {
+  color: #919090;
+}
+
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light>.ant-menu .ant-menu-item-selected {
+  background-color: unset;
+  color: #FF851B;
+}
+
+.ant-menu-light.ant-menu-inline .ant-menu-item,
+.ant-menu-light>.ant-menu.ant-menu-inline .ant-menu-item {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0 20px !important;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active,
+.ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active,
+.ant-menu-item-active {
+  color: #FF851B;
+  background-color: unset !important;
+}
+
+.ant-menu-light .ant-menu-item:not(.ant-menu-item-disabled):focus-visible,
+.ant-menu-light>.ant-menu .ant-menu-item:not(.ant-menu-item-disabled):focus-visible,
+.ant-menu-light .ant-menu-submenu-title:not(.ant-menu-item-disabled):focus-visible,
+.ant-menu-light>.ant-menu .ant-menu-submenu-title:not(.ant-menu-item-disabled):focus-visible {
+  outline: unset;
+}
+
+.ant-menu-light.ant-menu-root.ant-menu-inline,
+.ant-menu-light>.ant-menu.ant-menu-root.ant-menu-inline,
+.ant-menu-light.ant-menu-root.ant-menu-vertical,
+.ant-menu-light>.ant-menu.ant-menu-root.ant-menu-vertical {
+  border-inline-end: unset;
+}
+
+.ant-divider-horizontal {
+  display: flex;
+  clear: both;
+  width: 90%;
+  min-width: 90%;
+  margin: auto;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  width: -webkit-fill-available;
+}

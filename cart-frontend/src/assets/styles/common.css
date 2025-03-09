@@ -1,0 +1,79 @@
+.fullWidth {
+  width: 100% !important;
+}
+.fullMaxWidth {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.halfWidth {
+  width: 50% !important;
+}
+.flexTwoCol{
+  flex: 50%;
+}
+.divider-mr-md {
+  margin: 10px auto !important;
+}
+.error {
+  font-size: 12px;
+  padding: 4px 15px 0;
+  color: #c31212;
+}
+.blueBtn {
+  background-color: #009be1;
+  color: #ffffff;
+  padding: 15px 20px;
+  margin: auto 0;
+}
+.blueBtn:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #009ae1df;
+  color: #ffffff;
+}
+.redBtn {
+  background-color: #d50e0e;
+  color: #ffffff;
+  padding: 17px 20px;
+  margin: auto 5px;
+}
+.redBtn:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #d50e0ecf;
+  color: #ffffff;
+  border-color: #d50e0e;
+}
+.grayBtn {
+  background-color: #6a6a6a;
+  color: #ffffff;
+  padding: 17px 20px;
+  margin: auto 5px;
+}
+.grayBtn:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #6a6a6ac4;
+  color: #ffffff;
+  border-color: #6a6a6a;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.notDatafound {
+  display: flex;
+  flex-direction: column;
+}
+.notDatafound p {
+  margin: -25px auto 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #043260;
+}
+.notDatafound img {
+  width: 250px;
+  margin: auto;
+}

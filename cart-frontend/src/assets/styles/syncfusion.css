@@ -1,0 +1,23 @@
+@import "./../../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-documenteditor/styles/material.css";
+
+/* .e-de-pane {
+    display: none !important;
+} */
+#container_editor_viewerContainer{
+    width: 100% !important;
+}
+.e-documenteditor-optionspane {
+    /* height: 100%; */
+    width: 100%;
+}
+.e-control, .e-control [class^='e-'], .e-control [class*=' e-'],#container_editor_viewerContainer{
+    border-radius: 20px !important;
+}

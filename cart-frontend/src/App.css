@@ -1,0 +1,12 @@
+@import "./assets/styles/common.css";
+.authorLogo {
+  width: 30px;
+  height: auto;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

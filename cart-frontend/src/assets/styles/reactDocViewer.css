@@ -1,0 +1,179 @@
+#header-bar,
+#pdf-zoom-in,
+#pdf-zoom-out,
+#pdf-zoom-reset {
+  display: none;
+}
+
+#react-doc-viewer {
+  border-radius: 35px;
+  overflow-y: scroll;
+  max-height: 80vh;
+  border-right: 16px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+#react-doc-viewer::-webkit-scrollbar,
+.documentSummary::-webkit-scrollbar,
+.documentEditor::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+#react-doc-viewer::-webkit-scrollbar-track,
+.documentSummary::-webkit-scrollbar-track,
+.documentEditor::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+#react-doc-viewer::-webkit-scrollbar-thumb,
+.documentSummary::-webkit-scrollbar-thumb,
+.documentEditor::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+
+.edit-doc-selection-container::-webkit-scrollbar,
+.documentEditor::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.edit-doc-selection-container::-webkit-scrollbar-track,
+.documentEditor::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.edit-doc-selection-container::-webkit-scrollbar-thumb,
+.documentEditor::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+.modalContainer {
+  border-radius: 35px;
+  overflow-y: scroll;
+  max-height: 75vh;
+  padding: 0 5px;
+}
+.modalContainer::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.modalContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.modalContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+
+.questionHolder {
+  overflow-y: auto;
+  padding: 0 5px 0 0;
+  max-height: 270px;
+  height: 270px;
+}
+.questionHolder::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.questionHolder::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.questionHolder::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+
+.notifications::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.notifications::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.notifications::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+.blueInlineList::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.blueInlineList::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.blueInlineList::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+
+.cardListHolder::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.cardListHolder::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.cardListHolder::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+.dynamicInputGroup::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.dynamicInputGroup::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.dynamicInputGroup::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+.multipleCustomSelectInput
+  .ant-select-selector
+  .ant-select-selection-overflow::-webkit-scrollbar {
+  width: 0.3em !important;
+  border-radius: 35px;
+}
+
+.multipleCustomSelectInput
+  .ant-select-selector
+  .ant-select-selection-overflow::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 35px;
+}
+
+.multipleCustomSelectInput
+  .ant-select-selector
+  .ant-select-selection-overflow::-webkit-scrollbar-thumb {
+  background-color: darkgrey !important;
+  border-radius: 35px;
+}
+
+#pdf-controls {
+  padding: 15px 30px 0;
+  background-color: #ffffff00;
+  box-shadow: unset;
+  z-index: 3;
+}

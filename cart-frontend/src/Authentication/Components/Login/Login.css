@@ -1,0 +1,142 @@
+/* General Container */
+.authContainer {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #ffa04d 10%, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+/* Left Section: Form */
+.authForm {
+  background: white;
+  padding: 40px;
+  width: 40%;
+  min-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authForm img {
+  width: 130px;
+  margin-bottom: 15px;
+}
+
+.authForm form {
+  width: 100%;
+}
+
+/* Input Field Styling */
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.authInput .ant-input-outlined,
+.authInput .ant-input-password {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Button Styling */
+.authBtn {
+  width: 100%;
+  border-radius: 10px !important;
+  color: #fff;
+  background-color: #ff851b;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.authBtn:hover {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+/* Right Section: Info & Branding */
+.authInfo {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.authWelcomeMsg {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #003827;
+  margin-bottom: 10px;
+}
+
+.authWelcomeDesc {
+  font-size: 1.2rem;
+  color: #757578;
+}
+
+/* Side Divider */
+.sideDivider {
+  background-color: #003827;
+  width: 12px;
+  height: 140px;
+  border-radius: 2px;
+  margin: 20px 15px;
+}
+
+/* Branding Colors */
+.brandColor {
+  color: #ff851b;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .authContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .authForm {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .authInfo {
+    display: none; /* Hide side branding on small screens */
+  }
+}
+
+.authTxt {
+  display: flex;
+  flex-direction: column; /* Stack text */
+  text-align: center; /* Center alignment */
+  margin-bottom: 20px;
+}
+
+.authWelcomeMsg {
+  font-size: 2rem; /* Bigger font for "Get Started" */
+  font-weight: bold;
+  color: #003827;
+  margin-bottom: 5px; /* Add spacing between lines */
+}
+
+.authWelcomeDesc {
+  font-size: 1.2rem;
+  color: #757578;
+  font-weight: 400;
+}
+

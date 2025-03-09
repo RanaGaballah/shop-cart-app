@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "CustomFont";
+  src: 
+  /* url("../src/assets/fonts/Rubik-Italic-VariableFont_wght.ttf") format("truetype"), */ url("../src/assets/fonts/Rubik-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "CustomFont";
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #003827;
+}
+/* ANTD LAYOUT STYLING START  */
+.ant-layout {
+  font-family: "CustomFont";
+}
+.ant-layout.ant-layout-has-sider {
+  height: 100vh;
+  background-color: #fbf8f8;
+}
+.ant-layout-content {
+  width: 100%;
+  overflow-y: scroll;
+  /* scrollbar-color: #e3e3e3 #e7e6e34f; */
+  scrollbar-width: thin;
+  max-height: 80vh;
+}
+.ant-layout .ant-layout-sider {
+  width: 18% !important;
+  max-width: 288px !important;
+  background: #ffffff;
+  flex: unset !important;
+}
+
+.ant-layout-footer {
+  padding: 10px 50px;
+  font-size: 14px;
+  background: #f5f5f500;
+  color: #003827;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+.ant-layout-content,
+.ant-layout-footer {
+  background-color: #fbf8f8;
+}
+.ant-layout {
+  height: fit-content;
+}
+/* ANTD LAYOUT STYLING END  */
+/* ANTD INPUT STYLING START  */
+.ant-input-affix-wrapper,
+.searchSelectInput {
+  border-radius: 40px;
+  height: 36px;
+  border-color: #f2f2f23b;
+  width: 50%;
+}
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #f2f2f23b;
+  border-radius: 35px;
+}
+.inputGroup .ant-input-outlined,
+.inputGroup
+  {
+  border-radius: 20px;
+  /* height: 36px; */
+  border: 1px solid #eff0f6;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+.inputGroup label {
+  color: #003827;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 2px 3px;
+}
+
+.ant-input-outlined:focus,
+.ant-input-outlined:hover,
+.ant-input-outlined:focus-within {
+  border-color: #ff851b;
+}
+
+.inputGroup .textArea {
+  border-radius: 15px;
+}
+
+
+.ant-btn.ant-btn-round.ant-btn,
+.ant-menu-light.ant-menu-inline .ant-menu-item,
+.ant-menu-light > .ant-menu.ant-menu-inline .ant-menu-item,
+.ant-card.docCard .ant-card-body,
+.ant-card.docCard,
+.ant-input,
+.ant-upload-wrapper,
+.ant-segmented,
+.switchGroup label,
+.inputGroup label,
+.ant-modal,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.timeHint,
+.ant-tag,
+.ant-select-selection-search,
+.ant-select-selection-item,
+.ant-table-wrapper.customTable .ant-table-column-title,
+.ant-tabs .ant-tabs-tab .ant-tabs-tab-btn,
+.ant-table-cell {
+  font-family: "CustomFont" !important;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+  border-color: #7fffd400;
+}
+
+.ant-pagination-options {
+  display: none !important;
+}
+
+
+/* Change the hover border and text color of default buttons */
+.ant-btn-default:hover,
+.ant-btn-default:focus {
+  color: #ff851b !important;
+  border-color: #ff851b !important;
+}
+
+/* Change Pagination border color when hovered */
+.ant-pagination-item:hover {
+  border-color: #ff851b !important;
+}
+
+/* Change active page border and background color */
+.ant-pagination-item-active {
+  border-color: #ff851b !important;
+  background-color: #ff851b !important;
+}
+
+/* Change active page number color */
+.ant-pagination-item-active a {
+  color: #ffffff !important; /* White text on active page */
+}
+
+/* Change next/previous buttons hover effect */
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: #ff851b !important;
+  border-color: #ff851b !important;
+}
